@@ -1,0 +1,67 @@
+/*Header h1*/
+.typewriter > h1{
+    display: block;
+    font-size: 50px;
+    font-family: 'Francois One', sans-serif;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3.5s steps(50, end),
+        blink-caret .75s step-end infinite;
+}
+
+/*Animation*/
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent}
+    50% { border-color: black;}
+}
+
+/*Header h3*/
+h3{
+    font-size: 30px;
+    font-family: 'Francois One', sans-serif;
+}
+
+body {
+    background: linear-gradient(#FFFFFF, #0000FF); 
+    height: 100%;
+    padding-top: 5em;
+    height: 100vh;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+
+  header{
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    margin: 2em;
+  }
+
+  img{
+      display: inline;
+      width: 30%;
+      height: 30%;
+      transform: rotate(90deg);
+      margin-top: 150px;
+  }
+
+  body{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #Bio{
+      text-align: center;
+  }
